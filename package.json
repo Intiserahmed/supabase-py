@@ -1,0 +1,54 @@
+{
+  "name": "supabase",
+  "version": "1.0.2",
+  "description": "Supabase client for Python.",
+  "homepage": "https://github.com/supabase-community/supabase-py",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supabase-community/supabase-py"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joel Lee",
+      "email": "joel@joellee.org"
+    },
+    {
+      "name": "Leon Fedden",
+      "email": "leonfedden@gmail.com"
+    },
+    {
+      "name": "Daniel Reinón García",
+      "email": "danielreinon@outlook.com"
+    },
+    {
+      "name": "Leynier Gutiérrez González",
+      "email": "leynier41@gmail.com"
+    },
+    "Anand"
+  ],
+  "dependencies": {
+    "python": "^3.8",
+    "postgrest": "^0.10.6",
+    "realtime": "^1.0.0",
+    "gotrue": "^1.0.0",
+    "httpx": "^0.23.0",
+    "storage3": "^0.5.2",
+    "supafunc": "^0.2.2",
+    "python-semantic-release": "7.33.2"
+  },
+  "devDependencies": {
+    "pre-commit": "^3.1.1",
+    "black": "^23.1",
+    "pytest": "^7.2.2",
+    "flake8": "^5.0.4",
+    "isort": "^5.10.1",
+    "pytest-cov": "^4.0.0",
+    "commitizen": "^2.42.0",
+    "python-semantic-release": "^7.33.2",
+    "python-dotenv": "^1.0.0"
+  },
+  "scripts": {
+    "tests": "poetry_scripts:run_tests"
+  }
+}
